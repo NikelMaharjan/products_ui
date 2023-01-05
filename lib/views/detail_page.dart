@@ -13,11 +13,13 @@ class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-          child: CachedNetworkImage(
-            imageUrl: product.image,
-          ),
+        body: Center(
+          child: Container(
+            child: CachedNetworkImage(
+              imageUrl: product.image,
+            ),
 
+          ),
         ));
   }
 }
